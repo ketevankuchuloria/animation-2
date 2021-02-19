@@ -1,0 +1,84 @@
+
+.animation {
+	width: 100%;
+	height: 900px;
+	background-color: #00b3b3;
+	margin: 0 auto;
+	border-style: solid; 
+	position: relative;
+}
+
+
+.sea {
+	width: 100%;
+	height: 900px;
+	z-index: 1;
+	position: absolute;
+}
+
+.fish {
+	width: 150px;
+	height: 100px;
+	z-index: 2;
+	position: absolute;
+	transform: translate(0px,500px);
+	animation: fish 20s infinite;
+ 
+}
+
+.star {
+	width: 150px;
+	height: 100px;
+	z-index: 2;
+	position: absolute;
+	transform: translate(200px,300px);
+	animation: star 20s infinite;
+ 
+}
+
+.fish2 {
+	width: 150px;
+	height: 100px;
+	z-index: 2;
+	position: absolute;
+	transform: translate(-100px,300px);
+	animation: fish2 20s infinite;
+}
+
+
+.dolphin {
+	width: 150px;
+	height: 100px;
+	z-index: 3;
+	position: absolute;
+	transform: translate(-200px,100px);
+	animation: fish2 20s infinite;
+}
+
+.plant {
+	width: 150px;
+	height: 300px;
+	position: absolute;
+	z-index: 2;
+	transform: translate(200px,500px);
+	animation: plant 5s infinite;
+}
+
+
+.diving {
+	width: 300px;
+	height: 500px;
+	position: absolute;
+	z-index: 2;
+	transform: translate(700px,50px);
+	animation: diving 20s infinite;
+}
+
+.plant2 {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	z-index: 2;
+	transform: translate(300px,500px);
+	animation: plant 5s infinite;
+}

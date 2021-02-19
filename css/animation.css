@@ -1,0 +1,26 @@
+@keyframes fish {
+	from {left: 0px}
+	to {left: 700px}
+}
+
+@keyframes star {
+	from {top: 0px }
+	to {top: 300px}
+}
+
+@keyframes fish2 {
+	from {right: 0px }
+	to {right: 500px}
+}
+
+
+@keyframes plant {
+	from {left: 0px}
+	to {left: 10px}
+}
+
+
+@keyframes diving {
+	from {top: 0px}
+	to {top: 300px}
+}
